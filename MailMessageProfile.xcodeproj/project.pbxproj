@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04ABCF0A1DCC7057001BCEBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ABCF091DCC7057001BCEBC /* main.m */; };
+		04ABCF0D1DCC7057001BCEBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ABCF0C1DCC7057001BCEBC /* AppDelegate.m */; };
+		04ABCF101DCC7057001BCEBC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04ABCF0F1DCC7057001BCEBC /* ViewController.m */; };
+		04ABCF131DCC7057001BCEBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ABCF111DCC7057001BCEBC /* Main.storyboard */; };
+		04ABCF151DCC7057001BCEBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04ABCF141DCC7057001BCEBC /* Assets.xcassets */; };
+		04ABCF181DCC7057001BCEBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04ABCF161DCC7057001BCEBC /* LaunchScreen.storyboard */; };
+		04ABCF201DCC7078001BCEBC /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04ABCF1F1DCC7078001BCEBC /* MessageUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04ABCF051DCC7057001BCEBC /* MailMessageProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MailMessageProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04ABCF091DCC7057001BCEBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04ABCF0B1DCC7057001BCEBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04ABCF0C1DCC7057001BCEBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04ABCF0E1DCC7057001BCEBC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04ABCF0F1DCC7057001BCEBC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04ABCF121DCC7057001BCEBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04ABCF141DCC7057001BCEBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04ABCF171DCC7057001BCEBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04ABCF191DCC7057001BCEBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04ABCF1F1DCC7078001BCEBC /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04ABCF021DCC7057001BCEBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ABCF201DCC7078001BCEBC /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04ABCEFC1DCC7057001BCEBC = {
+			isa = PBXGroup;
+			children = (
+				04ABCF1F1DCC7078001BCEBC /* MessageUI.framework */,
+				04ABCF071DCC7057001BCEBC /* MailMessageProfile */,
+				04ABCF061DCC7057001BCEBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04ABCF061DCC7057001BCEBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04ABCF051DCC7057001BCEBC /* MailMessageProfile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04ABCF071DCC7057001BCEBC /* MailMessageProfile */ = {
+			isa = PBXGroup;
+			children = (
+				04ABCF0B1DCC7057001BCEBC /* AppDelegate.h */,
+				04ABCF0C1DCC7057001BCEBC /* AppDelegate.m */,
+				04ABCF0E1DCC7057001BCEBC /* ViewController.h */,
+				04ABCF0F1DCC7057001BCEBC /* ViewController.m */,
+				04ABCF111DCC7057001BCEBC /* Main.storyboard */,
+				04ABCF141DCC7057001BCEBC /* Assets.xcassets */,
+				04ABCF161DCC7057001BCEBC /* LaunchScreen.storyboard */,
+				04ABCF191DCC7057001BCEBC /* Info.plist */,
+				04ABCF081DCC7057001BCEBC /* Supporting Files */,
+			);
+			path = MailMessageProfile;
+			sourceTree = "<group>";
+		};
+		04ABCF081DCC7057001BCEBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04ABCF091DCC7057001BCEBC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04ABCF041DCC7057001BCEBC /* MailMessageProfile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04ABCF1C1DCC7057001BCEBC /* Build configuration list for PBXNativeTarget "MailMessageProfile" */;
+			buildPhases = (
+				04ABCF011DCC7057001BCEBC /* Sources */,
+				04ABCF021DCC7057001BCEBC /* Frameworks */,
+				04ABCF031DCC7057001BCEBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MailMessageProfile;
+			productName = MailMessageProfile;
+			productReference = 04ABCF051DCC7057001BCEBC /* MailMessageProfile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04ABCEFD1DCC7057001BCEBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Aksh;
+				TargetAttributes = {
+					04ABCF041DCC7057001BCEBC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 04ABCF001DCC7057001BCEBC /* Build configuration list for PBXProject "MailMessageProfile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04ABCEFC1DCC7057001BCEBC;
+			productRefGroup = 04ABCF061DCC7057001BCEBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04ABCF041DCC7057001BCEBC /* MailMessageProfile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04ABCF031DCC7057001BCEBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ABCF181DCC7057001BCEBC /* LaunchScreen.storyboard in Resources */,
+				04ABCF151DCC7057001BCEBC /* Assets.xcassets in Resources */,
+				04ABCF131DCC7057001BCEBC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04ABCF011DCC7057001BCEBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04ABCF101DCC7057001BCEBC /* ViewController.m in Sources */,
+				04ABCF0D1DCC7057001BCEBC /* AppDelegate.m in Sources */,
+				04ABCF0A1DCC7057001BCEBC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04ABCF111DCC7057001BCEBC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04ABCF121DCC7057001BCEBC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04ABCF161DCC7057001BCEBC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04ABCF171DCC7057001BCEBC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04ABCF1A1DCC7057001BCEBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04ABCF1B1DCC7057001BCEBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04ABCF1D1DCC7057001BCEBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MailMessageProfile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aksh.MailMessageProfile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04ABCF1E1DCC7057001BCEBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MailMessageProfile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Aksh.MailMessageProfile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04ABCF001DCC7057001BCEBC /* Build configuration list for PBXProject "MailMessageProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ABCF1A1DCC7057001BCEBC /* Debug */,
+				04ABCF1B1DCC7057001BCEBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04ABCF1C1DCC7057001BCEBC /* Build configuration list for PBXNativeTarget "MailMessageProfile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04ABCF1D1DCC7057001BCEBC /* Debug */,
+				04ABCF1E1DCC7057001BCEBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04ABCEFD1DCC7057001BCEBC /* Project object */;
+}
